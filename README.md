@@ -1,1 +1,4 @@
 # credit_risk_classification
+This project takes a look at a dataset containing historical lending activity from a peer-to-peer lending services company to build a machine learning model that can help predict the creditworthiness of certain borrowers. 
+The model uses a logistic regression to help predict loan_status: 0 meaning a healthy loan, and 1 meaning a high-risk loan. Some of the variables that were used to help predict loan status include loan_amount, interest_rate, borrower-income, and total_debt. 
+After the logistic regression was conducted on the test data, a confusion matrix and classification report was conducted showing that the model perfectly predicted healthy loans(0) while only correctly predicting 88% high-risk loans(1)
